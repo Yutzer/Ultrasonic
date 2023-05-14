@@ -1,5 +1,6 @@
 
-last_twenty_data = []
+last_twenty_data = [10]
+last_twenty_data.pop()
 def collect_data_of_sensor(): #This function takes a single data from sensor and stores it.
     single_data = input("Data from sensor:")
     last_twenty_data.append(single_data)
